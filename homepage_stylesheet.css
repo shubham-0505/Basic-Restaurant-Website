@@ -1,0 +1,316 @@
+*{
+    box-sizing:border-box;
+}
+header{
+    background-image:url(./images/cherry_background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:22px 26px;
+    /*border-radius:8px;*/
+}
+#mainheading{
+    font-size:3rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    text-align:center;
+    color:navy;
+}
+nav{
+    padding: 20px;
+    background-color:black;
+    display:flex;
+    /*order-radius:16px;*/
+}
+#alignright{
+    margin-left:auto;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:1.3rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    margin:12px;
+}
+nav a:hover{
+    color:gold;
+}
+#secondaryheading{
+    font-size:2rem;
+    font-family:'Montserrat';
+    font-weight:bold;
+    text-align:center;
+    position:relative;
+    bottom:10px;
+    color:crimson;
+}
+.flexcontainer1,.flexcontainer2{
+    display:flex;
+    flex-direction:row;
+    /*justify-content:space-around;*/
+}
+.flexcontainer1,.flexcontainer2{
+    margin-bottom:2.5rem;
+}
+
+.flexitem1,.flexitem2,.flexitem3,.flexitem4,.flexitem5,.flexitem6{
+    /*display: flex;*/
+    width:33%;
+    
+    align-items:center;
+    margin:12px;
+    border-radius:12px;
+    box-shadow: inset 0 0 10px #000000;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+    /*justify-content: center;*/
+    margin-left:34%;
+    margin-bottom:1rem;
+}
+.subheading1,.subheading2,.subheading3,.subheading4,.subheading5,.subheading6{
+    text-align:center;
+    font-size:1.6rem;
+    font-family:'Ubuntu';
+    font-weight:bold;
+}
+.subheading7{
+    font-size:2.5rem;
+    font-family:'Poppins';
+    text-align:center;
+    font-weight:bold;
+    
+}
+.subheading8{
+    font-size:1.4rem;
+    font-family:'Poppins';
+    text-align:center;
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+    height:6cm;
+    width:8cm;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:16px;
+    box-shadow:2px 2px 12px rgb(77, 255, 77);
+}
+.image7{
+   display:flex;
+   margin-left:auto;
+   margin-right:auto;
+   box-shadow:5px 5px 20px;
+   border-radius:8px;
+}
+#para1,#para2,#para3,#para4,#para5,#para6{
+    font-size:1.2rem;
+    font-family:'poppins';
+    font-weight:bold;
+    text-align:center;
+}
+#para7{
+    font-size:1.2rem;
+    font-family:'Poppins';
+    text-align:center;
+    font-style:regular;
+}
+#para8{
+    /*display:flex;*/
+    font-family:'Poppins';
+    font-size:2rem;
+    text-align:center;
+    font-weight:bold;
+}
+#para9{
+    font-family:'Poppins';
+    font-size:2.2rem;
+    font-weight:bold;
+    text-align:left;
+}
+.para10{
+    font-size:1.5rem;
+    font-family:'Farro';
+    text-align:left;
+    font-weight:400;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+    padding:12px 16px;
+    color:white;
+    justify-content: center;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    background-color:#0aa89e;
+    border:none;
+    border-radius:8px;
+    font-size:1rem;
+    font-family:'Poppins';
+    font-weight:bold;
+}
+#btn1:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn2:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn3:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn4:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn5:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn6:hover{
+    background-color:rgb(8, 145, 136);
+    cursor:pointer;
+    
+}
+#btn7{
+    display:flex;
+    padding:16px 24px;
+    border:none;
+    background-color: #0aa89e;
+    color:white;
+    font-size:1.2rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    border-radius:12px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:26px;
+}
+#btn8{
+    display:flex;
+    padding:16px 24px;
+    border:none;
+    background-color: #0aa89e;
+    color:white;
+    font-size:1rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    border-radius:12px;
+    margin-left:auto;
+    margin-right:auto;
+    /*margin-top:6rem;*/
+}
+#btn7:hover{
+    background-color: rgb(8, 145, 136);
+    cursor:pointer;
+}
+#btn8:hover{
+    background-color: rgb(8, 145, 136);
+    cursor:pointer;
+}
+#arrow{
+    position:relative;
+    top:4px;
+    left:6px;
+}
+.icons{
+    font-size:32px;
+    word-spacing: 14px;
+    text-align:center;
+}
+.contactuswrap{
+    border:1px solid #0000;
+    border-radius:12px;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding:10px 12px;*/
+    margin-top:4rem;
+    margin-bottom:2rem;
+    width:40%;
+    box-shadow: -5px -5px 10px black;
+}
+.flexcontainerfooter{
+    display:flex;
+    flex-direction:row;
+    background-color:#000000;
+    color:#ffffff;
+    padding:28px 30px;
+    background-attachment: scroll;
+}
+.footeritems1 li{
+    list-style-type:none;
+    font-family:'Poppins';
+    font-size:1rem;
+   
+}
+.footeritems1 li:hover{
+    color:gold;
+    cursor:pointer;
+}
+.footeritems2 li{
+    list-style-type:none;
+    font-family:'Poppins';
+    font-size:1rem;
+    
+}
+.footeritems2 li:hover{
+    color:gold;
+    cursor:pointer;
+}
+.footeritems3 li{
+    list-style-type:none;
+    font-family:'Poppins';
+    font-size:1rem;
+  
+}
+.footeritems3 li:hover{
+    color:gold;
+    cursor:pointer;
+}
+.footeritems4 li{
+    list-style-type:none;
+    font-family:'Poppins';
+    font-size:1rem;
+    
+}
+.footeritems4 li:hover{
+    color:gold;
+    cursor:pointer;
+}
+.footeritems1,.footeritems2,.footeritems3,.footeritems4{
+    width:25%;
+}
+#foothead1,#foothead2,#foothead3,#foothead4{
+    font-size:1.4rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    color:gold;
+}
+#foothead1,#foothead2,#foothead3,#foothead4:hover{
+    cursor:pointer;
+}
+.lastfooter{
+    font-size:1rem;
+    font-family:'Poppins';
+    font-weight:bold;
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+    
+}
+#lastfooter1:hover{
+    color:red;
+    cursor:pointer;
+}
+#lastfooter2:hover{
+    color:darkorange;
+    cursor:pointer;
+}
+#lastfooter3:hover{
+    color:blue;
+    cursor:pointer;
+}
+

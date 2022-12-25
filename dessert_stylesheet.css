@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+}
+.mainheading{
+    font-family:'Poppins';
+    font-size:2.6rem;
+    font-weight:600;
+    text-align:center;
+}
+.heading2{
+    font-family:'poppins';
+    font-size:32px;
+    font-weight:bold;
+}
+.flexcontainer1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.flexfootercontainer{
+    display:flex;
+    
+}
+.flexfooter1,.flexfooter2,.flexfooter3,.flexfooter4{
+    width:25%;
+    /* list-style-type:none; */
+    font-size:20px;
+    font-family:'Poppins';
+}
+.flexfooter1 li{
+    padding:8px;
+    list-style-type: none;
+}
+.flexfooter1 li:hover{
+    color:blue;
+    cursor:pointer;
+}
+
+
+
+.flexfooter2 li{
+    padding:8px;
+    list-style-type: none;
+
+}
+.flexfooter2 li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.flexfooter3 li{
+    padding:8px;
+    list-style-type: none;
+
+}
+.flexfooter3 li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.flexfooter4 li{
+    padding:8px;
+    list-style-type: none;
+
+}
+.flexfooter4 li:hover{
+    color:blue;
+    cursor:pointer;
+}
+.flexitem1,.flexitem2,.flexitem3{
+    width:25%;
+    border:none;
+    margin:12px;
+    box-shadow:3px 3px 4px grey;
+}
+.image1,.image2,.image3{
+    height:6cm;
+    width:100%;
+    
+}
+#subheading1,#subheading2,#subheading3{
+    font-family:sans-serif;
+    font-size:24px;
+    text-align:left;
+    margin:12px;
+}
+#subheading4{
+    font-family:'Poppins';
+    font-size:2rem;
+    text-align:center;
+    font-weight:600;
+}
+#para1,#para2,#para3{
+    font-family:sans-serif;
+    font-size:18px;
+    margin:12px;
+}
+#para4,#para5,#para6,#para7,#para8,#para9,#para10,#para11,#para12{
+    font-size:20px;
+    font-family:sans-serif;
+    color:grey;
+    margin:24px;
+}
+#btn{
+    background-color: white;
+    width:30%;
+    padding:12px;
+    border:2px solid rgb(73,69,190);
+    border-radius:6px;
+    color:rgb(73, 69, 190);
+    font-family:'Poppins';
+    font-weight:400;
+    font-size:1.8rem;
+    margin-left:27.5rem;
+    text-align:center;
+    margin-top:2rem;
+}
+#btn:hover{
+    background-color: rgb(56, 53, 151);
+    cursor:pointer;
+    color:white;
+}
